@@ -128,7 +128,7 @@ body {
     left: 0;
     width:  100%;
     height: 100%;
-    background-color: rgba(5, 7, 6, 0.45);
+    background-color: rgba(5, 7, 6, 0.55);
     z-index: 0;
 }
 
@@ -151,7 +151,7 @@ body {
 .p-content-section1 {
     color: #E8E5DC;
     font-size: 17px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: Arial, sans-serif;
 
 }
@@ -203,7 +203,7 @@ body {
 .boxs-section2 .box-section2 {
     width: 20%;
     height: 220px;
-    border: 1px solid;
+    border: 1px solid #17483C;
     border-radius: 10px;
     display: inline-block;
     position: relative;
@@ -391,10 +391,10 @@ body {
 
 .box-section4 {
     width: 335px;
-    height: 225px;
+    height: 200px;
     display: inline-block;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid #17483C;
     z-index: 1;
     position: relative;
 }
@@ -412,16 +412,17 @@ body {
     color: #0A2C25;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 -10px; 
-    padding: -10px 0 0;
+    position: relative;
+    top: -7px;
 }
 
 .box-section4 p {
-    font-size: 13px;
-    margin: -10px 45px;
+    font-size: 14px;
+    margin: -10px 50px;
     font-family: Arial, sans-serif;
     font-weight: 400;
-    opacity: 0.4;
-    line-height: 20px;
+    opacity: 0.6;
+    line-height: 22px;
 }
 
 .box-section4:hover p {
@@ -472,9 +473,9 @@ body {
 }
 
 .title-content-section5 {
-    font-size: 40px;
+    font-size: 44px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 115px 0px 10px 150px;
+    padding: 145px 0px 10px 150px;
     color: #172720;
 }
 
@@ -486,10 +487,10 @@ body {
 }
 
 .p-content-section5 {
-    font-size: 16px;
+    font-size: 17px;
     padding: 40px 0px 10px 150px;
-    line-height: 25px;
-    opacity: 0.4;
+    line-height: 27px;
+    color: #696D6B;
     font-family: Arial, sans-serif;
 }
 
@@ -501,26 +502,30 @@ body {
 }
 
 .lists-content-section5 li {
-    line-height: 35px;
-    font-size: 14px;
+    line-height: 37px;
+    font-size: 16px;
+}
+
+.lists-content-section5 i {
+    color: #C3A15F;
 }
 
 .img-section5 {
-    margin: 80px 100px 10 100px;
+    margin: 110px 100px 10px 100px;
 }
 
 .circles-section5 span {
-    width:  11px;
-    height: 11px;
+    width:  12px;
+    height: 12px;
     background-color: #141816;
     display: inline-block;
     border-radius: 50%;
-    margin: 1px;
+    margin: 2px;
     background-color: #aaa;
 }
 
 .circles-section5 {
-    margin-left: 250px;
+    margin-left: 270px;
 }
 
 .circles-section5 .circle1-section5 {
@@ -575,7 +580,7 @@ body {
 
 .content-section6 i {
     font-size: 40px;
-    color: #D6B66A;
+    color: #C3A15F;
     margin-bottom: 10px;
 }
 
@@ -668,7 +673,7 @@ body {
 
 .card-section7 p {
     line-height: 25px;
-    opacity: 0.5;
+    color: #737A76;
     font-family: Arial, sans-serif;
     font-size: 13px;
     margin: 15px 0;
@@ -746,25 +751,29 @@ body {
 }
 
 .div1-content-section8 {
-    padding: 20px 0 0 98px;
+    padding: 20px 0 0 110px;
 }
 
 .div1-content-section8 h2 {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .div1-content-section8 h3 {
     color: #DFC181;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .content-section8 p {
     padding-top: 40px;
     color: #E4E7E5;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.6;
+    width: 80%;
+}
+
+.content-section8 , p {
+    font-family: Arial, sans-serif;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\ section 9 \\\\\\\\\\\\\\\\\\\\\\\ */
@@ -915,7 +924,7 @@ body {
 
 .icons-card1-section10 i {
     color: #C3A15F;
-    font-size: 15;
+    font-size: 15px;
 }
 
 .icons-card1-section10 span {
@@ -982,7 +991,7 @@ body {
     color:#C3A15F;
 }
 
-.icons-section11 a{
+.icons-section11 a {
     background-color: #17483C;
     font-size: 20px;
     border-radius: 50%;
@@ -999,7 +1008,7 @@ body {
     color: #B8B8B8;
     margin: 40px 0;
     font-family: Arial, sans-serif;
-    font-size: 12;
+    font-size: 12px;
 }
 
 .icons-section11 a:hover  {
